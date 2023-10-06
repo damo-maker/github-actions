@@ -4,10 +4,10 @@ name: Hello Actions
 
 # Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the "master" branch
+  # Triggers the workflow on push or pull request events but only for the "damo-maker-patch-2" branch
   push:
     branches: 
-      - master
+      - damo-maker-patch-2
   pull_request:
     types: [closed]
 
